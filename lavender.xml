@@ -2,15 +2,15 @@
 <manifest>
 
   <remote  name="lavender"
-           fetch="https://github.com/sfierxyz"
-          revision="eleven" />
+           fetch="https://github.com/PotatoDevices/"
+          revision="dumaloo-release" />
 
 
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="lavender" revision="lavender"/>
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_lavender" remote="lavender"/>
   
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="lavender" revision="aosip"/>
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="lavender"/>
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="lavender"/>
   
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="lavender" revision="eleven"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="lavender" revision="eleven"/>
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="lavender"/>
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="lavender"/>
 </manifest>
