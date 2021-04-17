@@ -11,6 +11,9 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="los"/>
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="los">
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" />
+  
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="los" />
   <remove-project name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sxyz" />
   <remove-project name="platform_build" />
